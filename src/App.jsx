@@ -6,6 +6,10 @@ import BoxColor from "./components/BoxColor";
 import CreditCard from "./components/CreditCard";
 import Rating from "./components/Rating"
 import DriverCard from "./components/DriverCard";
+import LikeButton from "./components/LikeButton";
+import ClickablePicture from "./components/ClickablePicture";
+import Dice from "./components/Dice";
+
 
 function App() {
   return (
@@ -106,6 +110,18 @@ function App() {
     licensePlate: "BE33ER"
   }}
 />
+
+      <LikeButton />
+    <div>
+      <ClickablePicture
+        img="http://res.cloudinary.com/djyjdargg/image/upload/v1550165485/Ironclass/IH_Jan1950.jpg.jpg"
+      // imgClicked="maxence-glasses.png"
+      />
+      </div>
+
+    <div>
+      < Dice />
+    </div>
     </div>
 
     

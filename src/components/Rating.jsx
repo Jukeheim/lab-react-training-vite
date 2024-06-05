@@ -2,7 +2,8 @@ const Rating = ({ children }) => {
  const roundedValue = Math.round(children)
  const stars = Array(5)
  .fill('☆')
- .map((star, index) => (index < roundedValue ? '★': '☆'))
+ .map((star, index) => 
+    (index < roundedValue ? '★': '☆'))
 
  return(
     <div>
